@@ -1,0 +1,686 @@
+@charset "UTF-8";
+
+body {
+  font-family: 'Noto Sans JP', sans-serif;
+}
+.menu li a, .serviceContainer input, .submit input {
+  cursor: not-allowed;
+}
+h1 {
+  font-family: 'Noto Serif JP', serif;
+}
+.headerContainer {
+  display: flex;
+}
+header img {
+  width: 400px;
+  margin: 24px 0 24px 24px;
+}
+header ul {
+  display: flex;
+  margin: 32.42px 0 0 289px;
+}
+header ul li {
+  margin: 0 20px;
+}
+footer {
+  background-color: #333333;
+  height: 62px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer p {
+  color: #ffffff;
+}
+body {
+  text-align: center;
+  font-weight: 400;
+}
+h1 {
+  font-size: 42px;
+  font-weight: 700;
+}
+h2 {
+  margin: 16px 0 48px 0;
+}
+h2, p {
+  font-size: 16px
+}
+h3 {
+  font-size: 24px;
+  margin: 16px 0;
+}
+h4 {
+  font-size: 28px;
+  font-weight: 500;
+  margin-bottom: 24px;
+}
+.menu li {
+  font-size: 16px;
+}
+.h2Basic, .h2Red, .h2Black {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.h2Basic::before, .h2Basic::after,
+.h2Red::before, .h2Red::after,
+.h2Black::before, .h2Black::after {
+  content: "";
+  height: 1px;
+  width: 60px;
+}
+.h2Basic::before, .h2Basic::after {
+  background-color: #223E69;
+}
+.h2Red::before, .h2Red::after {
+  background-color: #B71B26;
+}
+.h2Black::before, .h2Black::after {
+  background-color: #333333;
+}
+.h2Basic::before, .h2Red::before, .h2Black::before {
+  margin-right: 8px;
+}
+.h2Basic::after, .h2Red::after, .h2Black::before {
+  margin-left: 8px;
+}
+.titleBlue {
+  color: #223E69;
+}
+.titleRed {
+  color: #B71B26;
+}
+.concept p, .serviceContainer p {
+  display: inline-block;
+  text-align: left;
+}
+.question ul {
+  display: table;
+  text-align: left;
+  margin: 0 170px;
+}
+.more {
+ position: absolute;
+ right: 0;
+ margin-top: 16px;
+}
+.bathroom, .living, .kitchen {
+  position: relative;
+}
+.table, .concept, .service, .flow, .question, .contact {
+  width: 100%;
+  margin-bottom: 160px;
+}
+.table {
+  height: 545px;
+}
+.concept {
+  height: 238px;
+}
+.concept p {
+  margin: 0 200px;
+  letter-spacing: 1.6;
+  line-height: 2.0;
+}
+.flow {
+  padding: 48px 0 48px 0;
+}
+.qusetion {
+  height: 429px;
+}
+.contact {
+  height: 1218px;
+  background-color: #dee2e9;
+}
+.serviceContainer img {
+  width: 300px;
+  height: 210px;
+}
+.bathroom, .living, .kitchen{
+  width: 300px;
+  height: 350px;
+  margin: 48px 30px 0 30px;
+}
+.serviceContainer {
+  display: flex;
+  justify-content: center;
+  margin: 48px 173px 160px 173px;
+}
+.flow {
+  background-color: #f4f5f7;
+}
+.questionListQ::before {
+  content: "Q.";
+  width: 52px;
+  height: 52px;
+  background-color: #333333;
+  border-radius: 50%;
+  margin-right: 6.36px;
+  color: #ffffff;
+  font-size: 34px;
+  display: flex;
+  justify-content: center;
+}
+.answerList::before {
+  content: "A.";
+  width: 52px;
+  height: 52px;
+  background-color: #B71B26;
+  border-radius: 50%;
+  margin-right: 6.36px;
+  color: #ffffff;
+  font-size: 34px;
+  display: flex;
+  justify-content: center;
+}
+.answerList1::before {
+  position: relative;
+  bottom: 6px;
+}
+.answerList2::before {
+  position: relative;
+  bottom: 18px;
+}
+.question ul {
+  line-height: 1.5;
+}
+.question ul li {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+}
+.questionListQ {
+  margin-bottom: 20px;
+}
+.questionListQ2 {
+  margin-bottom: 24px;
+}
+.answerList {
+  margin-bottom: 48px;
+}
+.flowList {
+  font-size: 28px;
+  writing-mode: vertical-lr;
+  margin: 0 auto;
+}
+.flowItem {
+  width: 60px;
+  height: 280px;
+  border-radius: 60px;
+  background-color: #333333;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flowList li img {
+  width: 30px;
+  height: 60px;
+  margin: 0 41px;
+}
+.img1 {
+  opacity: 0.6;
+}
+.img2 {
+  opacity: 0.7;
+}
+.img3 {
+  opacity: 0.8;
+}
+.img4 {
+  opacity: 0.9;
+}
+.spanRed {
+  color: #ffffff;
+  background-color: #B71B26;
+  width: 58px;
+  height: 24px;
+  border-radius: 8px;
+  margin: 14px;
+  display: inline-block;
+  text-align: center;
+  align-items: center;
+}
+.contact {
+  padding-top: 48px;
+}
+.contact input, textarea {
+  background-color: #ffffff;
+}
+.contactForm {
+  background-color: #eff1f4;
+  width: 1020px;
+  height: 1000px;
+  margin: 48px 173px 48px;
+  text-align: left;
+  padding-top: 48px;
+}
+.contactItem, .contactItem2, .contactItem3, .textarea {
+  display: flex;
+  align-items: center;
+}
+.contactForm label {
+  display: inline-block;
+  text-align: right;
+  width: 250px;
+  font-weight: bold;
+}
+.contactForm p {
+  height: 52px;
+  margin-bottom: 24px;
+  width: 336px;
+}
+.contactForm input {
+  height: 52px;
+}
+.contactForm textarea {
+  width: 664px;
+  height: 208px;
+}
+.text1 {
+  width: 332px;
+}
+.text2 {
+  width: 222px;
+  margin-left: 4px;
+}
+.text3 {
+  width: 664px;
+}
+.radioSpan {
+  margin-right: 40px;
+}
+.submit input {
+  color: #ffffff;
+  background-color: #333333;
+  text-align: center;
+  margin: 160px 0 0 360px;
+  font-size: 20px;
+  width: 300px;
+  height: 68px;
+}
+.sectionTitle .menuBtn {
+  display: none;
+}
+.topBtn {
+  display: flex;
+  justify-content: flex-end;
+}
+.topBtn a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #333333;
+  width: 60px;
+  height: 60px;
+  margin-right: 24px;
+}
+.topBtn img {
+  background-color: #333333;
+  color: #ffffff;
+}
+input[type="text"]:focus, input[type="tell"]:focus,
+input[type="email"]:focus, textarea:focus {
+  background-color: #ffffcc;
+  border: 2px solid red;
+}
+@media screen and (max-width: 768px) {
+  header,   .flow, .question, .contact, .contactForm, footer {
+    width: 375px;
+  }
+  .concept, .text1, .text3, .contactForm textarea, .serviceContainer p,
+  .concept h1, .concept h2, .concept h3, .concept h4, .bathroom, .living, .kitchen,
+  .question ul, .contact h1, .contact h2, .contactItem, .submit,
+  .textarea, .textarea p {
+    width: 351px;
+  }
+  header ul {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    width: 375px;
+    height: 300px;
+  }
+  header ul li {
+    width: 375px;
+    height: 16px;
+    margin-bottom: 46px;
+  }
+  .sectionTitle {
+    position: fixed;
+    z-index: 99;
+  }
+  .sectionTitle .menuIcon {
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+    top: 12px;
+    padding-top: 5px;
+    height: 12px;
+  }
+  .sectionTitle .menuIcon .navicon {
+    background: #B71B26;
+    display: block;
+    height: 2px;
+    width: 31px;
+    position: relative;
+    transition: background .4s ease-out;
+  }
+  .sectionTitle .menuIcon .navicon::before,
+  .sectionTitle .menuIcon .navicon::after {
+    background: #B71B26;
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    transition: all .4s ease-out;
+    width: 100%;
+  }
+  .sectionTitle .menuIcon .navicon::before {top: 10px;}
+  .sectionTitle .menuIcon .navicon::after {top: -10px;}
+  .sectionTitle .menu {
+    background-color: rgba(255,255,255,0.9);
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height .2s;
+    text-align: center;
+  }
+  .sectionTitle .menuBtn {
+    display: none;
+  }
+  .sectionTitle .menuBtn:checked ~ .menuIcon .navicon {background: transparent;}
+  .sectionTitle .menuBtn:checked ~ .menuIcon .navicon::before {transform: rotate(-45deg);top: 0;}
+  .sectionTitle .menuBtn:checked ~ .menuIcon .navicon::after {transform: rotate(45deg);top: 0;}
+  .menu li, .question ul, .serviceContainer p {
+    letter-spacing: 2px;
+  }
+  .menu a {
+    width: 375px;
+  }
+  .sectionTitle, .menu ul {
+    height: 532px;
+  }
+  .sectionTitle .menuBtn:checked ~ .menu {
+    height: 532px;
+    max-height: 532px;
+    transition: max-height .2s;
+  }
+  .sectionTitle, .menu {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .sectionTitle .menu li {
+    margin-bottom: 46px;
+    display: flex;
+    justify-content: center;
+  }
+  .sectionTitle .menu li a {
+    padding: 0;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .table {
+    width: 100%;
+    height: 480px;
+    object-fit: cover;
+    image-rendering: optimizeQuality;
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: crisp-edges;
+  }
+  .bathroom, .living, .kitchen, .serviceContainer, .contactForm,
+  .flow, .question ul, .table {
+    margin: 0;
+  }
+  .concept p {
+    margin: 0 0 0 5px;
+  }
+  .question ul, .flowItem {
+    letter-spacing: 1.6px;
+  }
+  .concept p, .bathroom p, .living p, .kitchen p {
+    letter-spacing: 1.4px;
+  }
+  .concept p {
+    line-height: 2.0;
+  }
+  .concept p, .bathroom p, .living p, .kitchen p {
+    font-size: 14px;
+  }
+  h1 {
+    font-size: 28px;
+  }
+  h3 {
+    font-size: 20px;
+    margin: 8px 0;
+  }
+  h4 {
+    font-size: 20px;
+  }
+  h4 {
+    margin-bottom: 16px;
+  }
+  h1,  h2, h3, h4 {
+    width: 375px;
+  }
+  .service h1, .service h2, .service h3,
+  .question h1, .question h2  {
+    width: 351px; 
+  }
+  h2 {
+    margin: 8px 0 24px 0;
+  }
+  .h2Basic::before, .h2Basic::after,
+  .h2Red::before, .h2Red::after,
+  .h2Black::before, .h2Black::after {
+  width: 40px;
+  }
+  header img {
+    width: 240px;
+    margin: 16px 123px 16px 12px;
+  }
+  .service, .flow {
+    margin-bottom: 80px;
+  }
+  .question {
+    margin-bottom: 56px;
+  }
+  .contact {
+    margin-bottom: 126px;
+  }
+  .table {
+    height: 480px;
+  }
+  .concept {
+    margin: 48px 12px 80px;
+  }
+  .text2 {
+    width: 125px;
+  }
+  .service, .question {
+    padding: 0 12px 0 12px;
+  }
+  .serviceContainer p {
+    display: block;
+    margin-top: 8px;
+  }
+  .serviceContainer, .flow,  .flowList {
+    display: block;
+  }
+  .serviceContainer img {
+    width: 351px;
+    margin-top: 24px
+  }
+  .bathroom img {
+    margin: 0;
+  }
+  .more {
+    margin-top: 8px;
+  }
+  .flow, .contact {
+    padding:16px 0;
+  }
+  .flowList {
+    writing-mode: horizontal-tb;
+    margin: 24px 37.5px 16px 37px;
+  }
+  .flowList li {
+    width: 300px;
+  }
+  .flowItem {
+    width: 300px;
+    height: 32px;
+    border-radius: 32px;
+    font-size: 16px;
+  }
+  .flowList li img {
+    width: 16px;
+    height: 32px;
+  }
+  .flowList img {
+    transform: rotate(90deg);
+    text-align: center;
+  }
+  .questionListQ::before, .answerList::before {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    margin-right: 5.11px;
+    font-size: 30px;
+    line-height: 1;
+    padding-left: 5px;
+  }
+  .questionListQ2::before {
+    position: relative;
+    bottom: 10px;
+  }
+  .answerList1::before {
+    position: relative;
+    bottom: 22px;
+  }
+  .answerList2::before {
+    position: relative;
+    bottom: 45px;
+  }
+  .question ul {
+    line-height: 1.5;
+  }
+  .question ul li {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+  }
+  br {
+    display: none;
+  }
+  .questionListQ {
+    margin-bottom: 16px;
+  }
+  .answerList {
+    margin-bottom: 50px;
+  }
+  .contact {
+    margin-bottom: 172.02px;
+  }
+  .contactForm {
+    padding: 0;
+    background-color: #dee2e9;
+  }
+  .contact h1, .contact h2 {
+    width: 375px;
+  } 
+  .spanRed {
+    color: #ffffff;
+    background-color: #B71B26;
+    width: 48px;
+    height: 18px;
+    border-radius: 8px;
+    margin: 0 0 0 4px;
+    display: inline-block;
+    font-size: 10px;
+    line-height: 1.5;
+    position: relative;
+    bottom: 2px;
+  }
+  .contactForm {
+    padding: 0 12px;
+  }
+  .contact, .contactForm {
+    height: 835px;
+  }
+  .contactItem, .contactItem2, .textarea {
+    display: block;
+    text-align: center;
+  }
+  .contactItem, .contactItem3, .textarea {
+    margin-bottom: 24px;
+  }
+  .contactItem, .contactItem2 {
+    height: 54px;
+  }
+  .contactItem3 {
+    height: 54px;
+  }
+  .textarea {
+    height: 144px;
+  }
+  .contactForm label {
+    display: inline-block;
+    text-align: right;
+    font-weight: bold;
+    width: auto;
+    min-width: auto;
+    height: 18px;
+  }
+  .contactForm p {
+    height: 16px;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .contactForm textarea {
+    width: 351px;
+    height: 120px;
+  }
+  .radioBtn {
+    width: 16px;
+    height: 16px;
+  }
+  .text1, .text3 {
+    width: 351px;
+  }
+  .text2 {
+    width: 125px;
+  }
+  .contactForm input {
+    height: 30px;
+  }
+  .dummy  {
+    display: none;
+  }
+  .addres {
+    margin-top: 8px;
+  }
+  .postal {
+    text-align: left;
+  }
+  .submit input {
+    display: block;
+    color: #ffffff;
+    background-color: #333333;
+    text-align: center;
+    margin: 24px auto 0;
+    font-size: 20px;
+    width: 300px;
+    height: 48px;
+  }
+  .topBtn a {
+    width: 48px;
+    height: 48px;
+    margin-right: 12px;
+  }
+}

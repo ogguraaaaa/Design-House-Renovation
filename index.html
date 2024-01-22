@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="common/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500&family=Noto+Serif+JP:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Design House Renovations</title>
+  </head>
+<body>
+  <header>
+    <div class="headerContainer">
+      <img src="images/logo.png" alt="ロゴ">
+      <nav class="sectionTitle">
+        <input class="menuBtn" type="checkbox" id="menuBtn">
+        <label class="menuIcon" for="menuBtn">
+          <span class="navicon"></span>
+        </label>
+        <ul class="menu">
+          <li><a href="#">コンセプト</a></li>
+          <li><a href="#">サービス</a></li>
+          <li><a href="#">施工の流れ</a></li>
+          <li><a href="#">よくあるご質問</a></li>
+          <li><a href="#">お問い合わせ</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <img src="images/hero.jpg"alt="テーブル" class="table">
+    <div class="concept">
+      <h1>CONCEPT</h1>
+        <h2 class="h2Basic"><span class="titleBlue">コンセプト</span></h2>
+      <h4>家族が笑顔になれる場所</h4>
+        <p>家族が集う、温かく居心地の良い空間づくりを目指して、幅広い年代の方に安心して過ごしていただける空間づくりや、お手入れのしやすい素材を使用したリフォームをご提案いたします。</p>
+    </div>
+    <div class="service">
+      <h1>SERVICE</h1>
+        <h2 class="h2Basic"><span class="titleBlue">サービス</span></h2>
+          <div class="serviceContainer">
+            <div class="bathroom">
+              <img src="images/list1Img.png" alt="浴槽">
+              <h3>浴室</h3>
+              <p>ご家族が一緒に入れる広めの浴槽や手すり等、安全性に配慮しています。</p>
+              <p><input type="button" value="more▸" class="more"></p>
+            </div>
+            <div class="living">
+              <img src="images/list2Img.png" alt="リビング">
+              <h3>リビング</h3>
+              <p>照明や家具の配置等、くつろぎやすい空間づくりを大切にしています。</p>
+              <p><input type="button" value="more▸" class="more"></p>
+            </div>
+            <div class="kitchen">
+              <img src="images/list3Img.png" alt="キッチン">
+              <h3>キッチン</h3>
+              <p>機能性だけでなく、デザイン性にもこだわっております。</p>
+              <p><input type="button" value="more▸" class="more"></p>
+            </div>
+          </div>
+    </div>
+    <div class="flow">
+      <h1>FLOW</h1>
+        <h2 class="h2Red"><span class="titleRed">施工の流れ</span></h2>
+        <ol class="flowList">
+          <li class="flowItem">ご相談</li>
+          <li><img src=images/arrow.png class="img1"></li>
+          <li class="flowItem">現地調査</li>
+          <li><img src=images/arrow.png class="img2"></li>
+          <li class="flowItem">お見積り</li>
+          <li><img src=images/arrow.png class="img3"></li>
+          <li class="flowItem">ご契約</li>
+          <li><img src=images/arrow.png class="img4"></li>
+          <li class="flowItem">施工</li>
+          <li><img src=images/arrow.png class="img5"></li>
+          <li class="flowItem">お引渡し</li>
+        </ol>
+    </div>
+    <div class="question">
+      <h1>Q&A</h1>
+        <h2 class="h2Basic">よくあるご質問</h2>
+        <ul>
+          <li class="questionListQ">見積は無料ですか？</li>
+          <li class="answerList answerList1"><a>はい。お見積りは無料で承っております。ホームページよりお気軽にお問い合わせください。</a></li>
+          <li class="questionListQ questionListQ2">普段通り生活をしながらのリフォーム工事は可能ですか？</li>
+          <li class="answerList answerList2">はい。もちろん可能です。工事中の箇所は、何日間か使用できなくなる場合もございます<br>ので、あらかじめご了承ください。大型リフォームの場合には、仮住まいお薦めしております。</li>
+        </ul>
+    </div>
+    <div class="contact">
+      <h1>CONTACT</h1>
+        <h2 class="h2Black" class="h2Basic">お問い合わせ</h2>
+        <form class="contactForm">
+          <div class="contactItem">
+            <p><label>お問い合わせ種別</label><span class="spanRed">必須</span></p>
+            <p><input type="radio" name="consultation" value="" class="radioBtn"><span class="radioSpan">資料請求</span><input type="radio" name="consultation" value="" class="radioBtn">ご相談</p>
+          </div>
+          <div class="contactItem">
+            <p><label>お名前</label><span class="spanRed">必須</span></p>
+            <p><input type="text" name="user_name" class="text1"></p>
+          </div>
+          <div class="contactItem">
+            <p><label>フリガナ</label><span class="spanRed">必須</span></p>
+            <p><input type="text" name="furigana" class="text1"></p>
+          </div>
+          <div class="contactItem">
+            <p><label>電話番号</label><span class="spanRed">必須</span></p>
+            <p><input type="tell" name="phone_number" class="text1"></p>
+          </div>
+          <div class="contactItem2">
+            <p><label>住所</label><span class="spanRed">必須</span></p>
+            <p class="postal">〒<input type="text" name="postal_code" class="text2"></p>
+          </div>
+          <div class="contactItem3">
+            <p class="dummy"></p>
+            <p class="addres"><input type="text" name="address" class="text3"></p>
+          </div>
+          <div class="contactItem">
+            <p><label>メールアドレス</label><span class="spanRed">必須</span></p>
+            <p><input type="email" name="user_mail" class="text3"></p>
+          </div>
+          <div class="contactItem">
+            <p><label>メールアドレス(確認用)</label><span class="spanRed">必須</span></p>
+            <p><input type="email" name="user_mail_confirmation" class="text3"></p>
+          </div>
+          <div class="textarea">
+            <p><label>お問い合わせ内容</label></p>
+            <p><textarea name="message"></textarea></p>
+          </div>
+          <div class="submit">
+            <input type="submit" value="入力内容を確認する▶">
+          </div>
+        </form>
+    </div>
+    <div class="topBtn">
+      <a href="#">
+        <img src=images/arrow2.png  alt="top-btn">
+      </a>
+    </div>
+  </main>
+</body>
+<footer>
+  <p>&copy 2023 Design House Renovations</p>
+</footer>
